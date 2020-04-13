@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.top-nav {
+    width: 100%;
+    height: 15vh;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    margin-left: 5%;
+}
+
+.logo h1 {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.menu-list {
+    width: 50%;
+}
+
+.menu-list ul {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.list-item {
+    font-weight: 400;
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+.working-area {
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
